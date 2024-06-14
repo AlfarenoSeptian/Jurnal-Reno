@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('image/gunung.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f0f0f0; /* Tambahan dari gaya baru */
+    margin: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 800px; /* Tambahan dari gaya baru */
+}
+
+form {
+    margin-bottom: 20px; /* Tambahan dari gaya baru */
+}
+
+label {
+    font-weight: bold; /* Tambahan dari gaya baru */
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.journal-list {
+    margin-top: 20px;
+}
+
+.journal-entry {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Dari gaya lama */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.journal-entry p {
+    margin: 5px 0;
+}
+
+/* Aksi tombol dalam entri jurnal */
+.journal-entry .actions {
+    display: flex;
+    gap: 10px;
+}
+
+.journal-entry .actions button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    width: 60px;
+}
+
+.journal-entry .actions .edit {
+    background-color: #ffc107;
+    color: #fff;
+}
+
+.journal-entry .actions .delete {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Gaya untuk status tercapai */
+.tercapai {
+    color: green;
+    font-weight: bold;
+}
+
+/* Gaya untuk status tidak tercapai */
+.tidak-tercapai {
+    color: red;
+    font-weight: bold;
+}
